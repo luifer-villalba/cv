@@ -1,0 +1,176 @@
+%% Inicio del archivo `template-es.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,roman]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+
+% temas de moderncv
+\moderncvstyle{casual}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
+\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+% codificacion de caracteres
+%\usepackage[utf8]{inputenc}                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
+
+% datos personales
+\name{Luis Fernando\\}{Villalba Vera}
+%\title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
+\address{Paso Pucu esquina Parapiti Nro 910}{Asunci\'on} % dato opcional, elimine la linea si no desea el dato
+\phone[mobile]{+595~(991)~704~758}                     % dato opcional, elimine la linea si no desea el dato
+\phone[fixed]{+595~(21)~372~255}                      % dato opcional, elimine la linea si no desea el dato
+%\phone[fax]{+3~(456)~789~012}                       % dato opcional, elimine la linea si no desea el dato
+\email{villalba.luifer@gmail.com}                                 % dato opcional, elimine la linea si no desea el dato
+%\homepage{www.johndoe.com}                           % dato opcional, elimine la linea si no desea el dato
+%\extrainfo{informacion adicional}                    % dato opcional, elimine la linea si no desea el dato
+\photo[64pt][0.4pt]{picture}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+%\quote{Alguna cita (opcional)}                       % dato opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            contenido
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+
+\section{Informaci\'on Personal}
+\cventry{Fecha de Nacimiento}{15 de marzo de 1991}{}{}{}{}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{Domicilio}{Paso Pucu esquina Parapiti Nro 910}{Barrio Obrero}{Asunci\'on}{}{}
+\cventry{Tel\'efono}{+595~(991)~704~758 / +595~(21)~372~255}{}{}{}{}
+\cventry{Email}{villalba.luifer@gmail.com}{}{}{}{}
+
+\section{Formaci\'on acad\'emica}
+\cventry{2009--2015}{Ingenier\'ia Inform\'atica}{Universidad Cat\'olica}{Asunci\'on}{}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{2014}{Administraci\'on de Sistemas I}{Universidad Cat\'olica}{Asunci\'on}{}{}
+\cventry{2015}{Administraci\'on de Sistemas II}{Universidad Cat\'olica}{Asunci\'on}{}{}
+\cventry{2005--2008}{Bachillerato en Inform\'atica}{Colegio Sagrado Coraz\'on de Jes\'us "Salesianito"}{Asunci\'on}{}{}
+\cventry{2003--2005}{E.E.B.}{Colegio Sagrado Coraz\'on de Jes\'us "Salesianito"}{Asunci\'on}{}{}
+\cventry{1997--2002}{Estudios Primarios}{Colegio Sagrado Coraz\'on de Jes\'us "Salesianito"}{Asunci\'on}{}{}
+
+\section{Experiencia}
+\subsection{Experiencia Laboral}
+\cventry{2014--Actual}{Desarrollador de Software Web}{Software Natura / eLumen, Inc.}{Asunci\'on}{}{Octubre hasta la fecha.}
+\cventry{2015--Actual}{Desarrollador de Software Web/M\'ovil}{4QStudios}{Asunci\'on}{}{Abril hasta la fecha.}
+\subsection{Pasant\'ia Curricular}
+\cventry{2007--2008}{T\'ecnico en computadoras}{ITAIPU Binacional}{Asunci\'on}{}{Noviembre hasta enero.}
+
+\newpage
+\section{Idiomas}
+\cvitemwithcomment{Espa\~nol}{Nivel Avanzado}{Entiende, lee, habla.}
+\cvitemwithcomment{Ingl\'es}{Nivel Avanzado}{Entiende, lee, habla.}
+\cvitemwithcomment{Guaran\'i}{Nivel Medio}{Entiende, lee.}
+\cvitemwithcomment{Japon\'es}{Nivel b\'asico}{Entiende, lee.}
+
+\section{Conocimientos}
+\cvitemwithcomment{SO/Servidores}{GNU/Linux (Ubuntu, Centos, ArchLinux, etc.)}{Nivel avanzado.}
+\cvitemwithcomment{}{Windows}{Nivel avanzado.}
+\cvitemwithcomment{}{Mac OS}{Nivel avanzado.}
+\cvitemwithcomment{}{Apache}{Nivel avanzado.}
+\cvitemwithcomment{}{Nginx}{Nivel avanzado.}
+\cvitemwithcomment{}{DNS}{Nivel avanzado.}
+\cvitemwithcomment{Ofim\'atica}{Word, Excel, PowerPoint.}{Nivel avanzado.}
+\cvitemwithcomment{Hardware}{Ensamblado y arquitecturas}{Nivel avanzado.}
+\cvitemwithcomment{Programaci\'on}{C/C++}{Nivel avanzado.}
+\cvitemwithcomment{}{Python}{Nivel avanzado.}
+\cvitemwithcomment{}{Java}{Nivel avanzado.}
+\cvitemwithcomment{}{Android}{Nivel Avanzado.}
+\cvitemwithcomment{}{React Native}{Nivel avanzado.}
+\cvitemwithcomment{}{Groovy}{Nivel medio.}
+\cvitemwithcomment{}{iOS}{Nivel medio.}
+\cvitemwithcomment{}{Perl}{Nivel medio.}
+\cvitemwithcomment{}{Ruby}{Nivel medio.}
+\cvitemwithcomment{}{Php}{Nivel medio.}
+\cvitemwithcomment{}{Visual Basic.NET}{Nivel medio.}
+\cvitemwithcomment{}{Prolog}{Nivel b\'asico.}
+\cvitemwithcomment{}{Scheme}{Nivel b\'asico.}
+\cvitemwithcomment{Frameworks}{Java EE}{Nivel avanzado.}
+\cvitemwithcomment{}{Spring}{Nivel avanzado.}
+\cvitemwithcomment{}{Django}{Nivel avanzado.}
+\cvitemwithcomment{}{Jasper Reports}{Nivel avanzado.}
+\cvitemwithcomment{}{GitHub}{Nivel avanzado.}
+\cvitemwithcomment{}{Grails}{Nivel avanzado.}
+\cvitemwithcomment{Testing}{TestNG, Selenium.}{Nivel avanzado.}
+\cvitemwithcomment{Maquetaci\'on}{\LaTeX}{Nivel avanzado.}
+\cvitemwithcomment{Operaciones}{Jenkins, Chef, Nexus, New Relic, Qualys, Alert Logic.}{Nivel avanzado.}
+\cvitemwithcomment{Utilidades}{Eclipse, NetBeans, Sublime-Text2, Atom, IntelliJ, WebStorm, PyCharm.}{}
+\cvitemwithcomment{}{Enfoque \'Agil de Desarrollo de SW.}{Nivel avanzado.}
+\cvitemwithcomment{Entorno Web}{HTML5}{Nivel avanzado.}
+\cvitemwithcomment{}{Javascript}{Nivel avanzado.}
+\cvitemwithcomment{}{CSS}{Nivel avanzado.}
+\cvitemwithcomment{}{AngularJS}{Nivel avanzado.}
+\cvitemwithcomment{}{JQuery}{Nivel avanzado.}
+\cvitemwithcomment{}{TypeScript}{Nivel avanzado.}
+\cvitemwithcomment{}{Wordpress}{Nivel avanzado.}
+\cvitemwithcomment{}{Bootstrap}{Nivel avanzado.}
+\cvitemwithcomment{}{SemanticUI}{Nivel avanzado.}
+\cvitemwithcomment{}{Zend Framework 2}{Nivel medio.}
+\cvitemwithcomment{Bases de datos}{PostgreSQL}{Nivel avanzado.}
+\cvitemwithcomment{}{SQL Server}{Nivel avanzado.}
+\cvitemwithcomment{}{PostgreSQL}{Nivel avanzado.}
+\cvitemwithcomment{}{MySQL}{Nivel avanzado.}
+\cvitemwithcomment{}{MongoDB}{Nivel avanzado.}
+
+\section{Referencia Laboral}
+\cventry{}{Alan Zillich}{L\'ider de Equipo}{Software Natura}{(0981) 263-280}{}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{}{Consuelo Merino}{Scrum Master}{Software Natura}{(0981) 747-537}{}{}
+\cventry{}{Omar Stumpfs}{Desarrollador}{(0985) 818-457}{}{}
+
+\section{Referencia Personal}
+\cventry{}{Eliana Acosta}{(0981) 245-642}{}{}{}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{}{Jorge Villalba}{}{}{(0982) 146-029}{}{}
+
+
+%\section{Interests}
+%\cvitem{hobby 1}{Descripci\'on}
+%\cvitem{hobby 2}{Descripci\'on}
+%\cvitem{hobby 3}{Descripci\'on}
+
+%\section{Extra 1}
+%\cvlistitem{Tema 1}
+%\cvlistitem{Tema 2}
+%\cvlistitem{Tema 3}
+
+%\renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Tema 1}{Tema 4}
+%\cvlistdoubleitem{Tema 2}{Tema 5\cite{book1}}
+%\cvlistdoubleitem{Tema 3}{}
+
+% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' es el nombre del archivo BibTeX
+
+% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
+%\section{Publicaciones}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
+
+%\clearpage\end{CJK*}                          % si esta redactando su CV en chino usando CJK, \clearpage es requerido por fancyhdr para que funcione correctamente con CJK, aunque esto eliminara la numeracion de pagina al dejar \lastpage como no definido
+\end{document}
+
+
+%% fin del archivo `template-es.tex'.
